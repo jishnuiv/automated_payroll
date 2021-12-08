@@ -86,35 +86,7 @@ class _chat_usersState extends State<chat_users> {
 
 
 
-              Padding(
-                padding: const EdgeInsets.all(15),
-                child: Container(
-                  height: 60,
-                  child: TextFormField(
-                    controller: NameController,
-                    decoration: InputDecoration(
-                        focusedBorder: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(8.0),
-                          borderSide: BorderSide(
-                            color: Colors.black,
-                          ),
-                        ),
-                        enabledBorder: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(8.0),
-                          borderSide: BorderSide(
-                            color: Colors.blue,
-                            width: 2.0,
-                          ),
-                        ),
-                        border: OutlineInputBorder(
-                            borderSide: BorderSide(
-                              color: Colors.black,
-                            )
-                        ),
-                        hintText:"Person Name"
-                    ),),
-                ),
-              ),
+
 
 
               Padding(
