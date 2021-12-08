@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 
 import '../HR_view_chat_replay.dart';
 import '../add_person.dart';
+import '../view_location.dart';
 
 class hr_dash extends StatefulWidget {
   const hr_dash({Key key}) : super(key: key);
@@ -45,7 +46,7 @@ class _hr_dashState extends State<hr_dash> {
 
             InkWell(
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => viewemployee()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => UserLocation()));
               },
 
               child: Card(
